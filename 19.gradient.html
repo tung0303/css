@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 150x;
+            height: 100px;
+            margin-bottom: 20px;
+
+        }
+
+        .grad {
+
+            background: linear-gradient(red, orange, yellow, green, blue);
+        }
+
+        .grad1 {
+            background: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1));
+        }
+
+        .grad2 {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+                linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+            background-size: 20px 20px;
+
+        }
+
+        .grad3 {
+            background-size: 20px 20px;
+            background: linear-gradient(to right rgba(0, 0, 255, .8), rgba(0, 255, 0, .8) 50%)
+        }
+
+        .grad4 {
+            background: repeating-linear-gradient(deeppink, hotpink 25%);
+        }
+
+        .grad5 {
+            background: radial-gradient(circle, purple, yellow 25%, red 100%);
+
+        }
+
+        .grad6 {
+            background: radial-gradient(purple, yellow 25%, red 100%);
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 100px;
+            background: linear-gradient(red, orange, yellow, green, blue);
+            -webkit-background-clip: text;
+            color: transparent;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="box grad"></div>
+    <div class="box grad1"></div>
+    <div class="box grad2"></div>
+    <div class="box grad3"></div>
+    <div class="box grad4"></div>
+    <div class="box grad5"></div>
+    <div class="box grad6"></div>
+    <div class="box grad7"></div>
+    <h1>TUNG</h1>
+</body>
+
+</html>

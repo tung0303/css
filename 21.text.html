@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 100%;
+            display: flex;
+        }
+
+        .box {
+            margin: 10px;
+            background-color: thistle;
+            overflow: hidden;
+            /* 超過點點點用 */
+            /* text-overflow: ellipsis; */
+            /* 顯示單行用 */
+            /* white-space: nowrap; */
+            /* 以下顯示多行 */
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia neque, magnam, quo atque
+            voluptates, quam eaque fugiat consequuntur suscipit vero mollitia minus error dolor reiciendis qui nemo rem
+            nobis.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia neque, magnam, quo atque
+            voluptates, quam eaque fugiat consequuntur suscipit vero mollitia minus error dolor reiciendis qui nemo rem
+            nobis.</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia neque, magnam, quo atque
+            voluptates, quam eaque fugiat consequuntur suscipit vero mollitia minus error dolor reiciendis qui nemo rem
+            nobis.</div>
+
+
+    </div>
+</body>
+
+</html>

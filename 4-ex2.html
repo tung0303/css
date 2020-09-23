@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+    <style>
+        body{
+            background-color:gray;
+        }
+         .card{
+            width: 300px;
+            height: 300px;
+            background-color:snow;
+            /* 置中 */
+            margin: 0 auto;
+            /* 文字置中 */
+            text-align: center;
+            padding-top: 20px;
+            border-radius: 20px;
+        }
+        .figure{
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .figure img {
+            width: 100%;
+        }
+        
+        h3{
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px slategray solid
+        }
+
+        .border{ 
+        width: 200px;
+        height: 100px;
+        /* 透明 */
+        border: 20px solid transparent;
+        border-image: url("/images/border-image.png") 20 round;
+        margin: 0 auto;
+        margin-top: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="figure"><img src="/images/ex1_pic1.jpg" alt="">
+        </div>
+        <!-- 外框虛線(容器) -->
+        <div class="border">
+            <h3>Tung</h3>
+            <p>I just wanna sleep~~~ </p>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

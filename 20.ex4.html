@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            background-color: snow;
+            /* 置中 */
+            margin: 0 auto;
+            /* 文字置中 */
+            text-align: center;
+            /* padding-top: 20px; */
+            border-radius: 20px;
+            box-shadow: 3px 3px 4px #111111;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .figure {
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top: 10px;
+            position: absolute;
+            top: 70px;
+            left: 90px;
+
+
+        }
+
+        .figure img {
+            width: 100%;
+        }
+
+        h3 {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 50px;
+            padding-bottom: 10px;
+            border-bottom: 2px slategray solid
+        }
+
+        .border {
+            width: 200px;
+            height: 100px;
+            /* 透明 */
+            border: 20px solid transparent;
+            margin: 0 auto;
+            margin-top: 5px;
+
+        }
+
+        .back {
+            background: url("/images/flowers.jpg");
+            height: 150px;
+            background-size: cover;
+
+
+
+        }
+
+        a {
+            background: linear-gradient(to right, rgba(118, 118, 255), rgba(255, 112, 244));
+            display: block;
+            padding: 5px;
+            margin: 20px;
+            border-radius: 10px;
+            /* 連結手指頭 */
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="back"></div>
+        <div class="figure"><img src="/images/ex1_pic1.jpg" alt="">
+        </div>
+        <!-- 外框虛線(容器) -->
+        <div class="border">
+            <h3>Tung</h3>
+            <p>I just wanna sleep~~~ </p>
+            <a role="button" class="button">Follow me </a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

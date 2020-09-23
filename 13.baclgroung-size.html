@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .city {
+            width: 800px;
+            height: 250px;
+            background: url("/images/city.jpg") center center no-repeat;
+            background-size: 300px 300px;
+            outline: 1px solid #cccccc;
+        }
+
+        .contain {
+            width: 800px;
+            height: 250px;
+            background: url("/images/city.jpg") center center no-repeat;
+            background-size: contain;
+            outline: 1px solid #cccccc;
+
+        }
+
+        /* 填滿整區 */
+        .cover {
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="city"></div>
+    <div class="contain"></div>
+    <div class="city cover"></div>
+</body>
+
+</html>
